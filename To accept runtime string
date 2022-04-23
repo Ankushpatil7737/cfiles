@@ -1,0 +1,39 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace HelloWorld
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter The Word ");
+            String n1 = Console.ReadLine();
+            Console.WriteLine("How Many Times ");
+            int no1 = Convert.ToInt32(Console.ReadLine());
+            for (int i = 1; i <= no1; i++)
+            {
+                Console.WriteLine("\n " + n1);
+            }
+            Console.ReadLine();
+        }
+    }
+}
+
+output:-
+Enter The Word
+Ankush patil
+How Many Times
+5
+
+ Ankush patil
+
+ Ankush patil
+
+ Ankush patil
+
+ Ankush patil
+
+ Ankush patil
