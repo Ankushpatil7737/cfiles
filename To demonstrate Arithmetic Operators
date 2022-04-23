@@ -1,0 +1,53 @@
+using System;
+public class operaters
+{
+static public void Main()
+{
+int a,b,c;
+
+Console.WriteLine("Enter value of a="); 
+a=Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Enter value of b=");
+b=Convert.ToInt32(Console.ReadLine());
+
+c=a+b;
+Console.WriteLine("Addition of a and b="+c);
+Console.ReadLine();
+
+c=a-b; 
+Console.WriteLine("Substraction of a and b ="+c);
+Console.ReadLine(); 
+
+c=a/b;
+Console.WriteLine("Division of a and b ="+c); 
+Console.ReadLine();
+
+c=a*b;
+Console.WriteLine("Multiplication of a and b="+c); 
+Console.ReadLine();
+
+c=a%b; 
+
+Console.WriteLine("Modulation of a and b="+c); 
+Console.ReadLine();
+}
+}
+
+output:-
+Enter value of a=
+10
+Enter value of b=
+20
+Addition of a and b=30
+
+Substraction of a and b =-10
+
+Division of a and b =0
+
+Multiplication of a and b=200
+
+Modulation of a and b=10
+
+ 
+ 
