@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace CSharp_Shell
+{
+    public class Program 
+    {
+    	public virtual void showinfo()
+    	{
+    		Console.WriteLine("base class method");
+    	}
+    }
+    class b:Program
+    {
+    	public override void showinfo()
+    	{
+    		Console.WriteLine("derived class method");
+    	}
+
+        public static void Main()
+        {
+            b B1 = new b();
+			B1.showinfo();
+			B1.showinfo();
+            Console.ReadLine();
+        }
+    }
+}
+
+ output:-
+ derived class method
+ derived class method
+
